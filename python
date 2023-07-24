@@ -1,0 +1,64 @@
+# Import required modules
+# define global variables
+# define class definitions
+# define helper functions
+# define main program functions
+# main program loop
+While true:
+Display _ menu ()
+Choice = get _ user _ choice ()
+If choice == 1:
+View _ occupancy ()
+Elif choice == 2:
+Issue _ entry _ permit ()
+Elif choice == 3:
+Issue _ exit _ permit ()
+Elif choice == 4:
+View _ traffic _ stats ()
+Elif choice == 5:
+Generate _ reports ()
+Elif choice == 6:
+Exit _ program ()
+Else:
+Print (“invalid choice. Please try again.”)
+# function to display the main menu
+Function display _ menu ():
+“ “ “
+Display the main menu options for the vehicle traffic management software
+” ” ” 
+# print menu options
+# functions to get user choice
+Function get _ user _ choice ():
+” ” ”
+Prompts the user to enter their choice from the displayed menu options.
+Returns:
+Int: the users selected choice.
+” ” ”
+Choice = int (input (“enter your choice”))
+Return choice
+# function to view parking lot occupancy.
+Function view _ occupancy ():
+“ “ “
+Displays the occupancy status of parking lots.
+” ” ”
+# code to display the occupancy status of parking lots.
+# function to issue exit permits
+Function issue _ exit _ permit ():
+“ “ “
+Issues an exit permit to a vehicle leaving the car park.
+” ” ”
+# code to display traffic statistics.
+# function to generate reports
+Function generate _ reports ():
+ ” ” ”
+Generates reports related to car park occupancy and traffic flow.
+# code to generate reports
+# function to exit the program
+Function exit _ program ():
+“ “ “
+Exits the vehicle traffic management software
+” ” ”
+Print (“exiting the vehicle traffic management software.”)
+” ” ”
+Code to clean up resources and save data if necessary 
+Exit ()
